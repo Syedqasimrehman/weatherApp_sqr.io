@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background: url("./img/clear.jpg") center center / cover no-repeat;
+    overflow: hidden;
+    background: #eeedec;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    height: 100vh;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+  }
+  .sidebar {
+    background-color: transparent;
+    width: 40vw;
+    height: 100vh;
+    max-width: 400px;
+    position: absolute;
+    /* right: ; */
+    backdrop-filter: blur(15px);
+    top: 0;
+    padding: 0 50px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+  }
+  input::placeholder {
+    color: #fff;
+  }
+
+  form input {
+    text-align: center;
+    width: 65%;
+    color: silver;
+    background: none;
+    outline: none;
+    border: 0;
+    border-bottom: 1px dotted #fff;
+    font-size: 20px;
+    margin: 5rem 1rem;
+    padding: 10px;
+  }
+  button{
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 1rem .2rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+ .time_Date{
+    margin: 15rem 1rem;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+} 
+.country_de{
+    display: flex;
+    justify-content: space-between;    
+}
+.count{
+  margin: 1.5rem .2rem;
+}
+/* .time_da{
+  padding: 1rem;
+  margin: 1rem;
+} */
+/* .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}   */
+.icon{
+  position: absolute;
+  z-index:1;
+  right: 0;
+  margin: 2rem;
+}
+.icon_img{
+color: #eeedec;
+}
+
